@@ -19,7 +19,7 @@ export default function Home() {
           </h1>
         </div>
 
-        <div className="mb-32 lg:mb-0 w-full lg:text-left">
+        <div className="mb-2 lg:mb-0 w-full lg:text-left">
           {" "}
           <a
             href="https://github.com/orgs/Dynamo-Dark-Aid/repositories"
