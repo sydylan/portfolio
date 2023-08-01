@@ -1,113 +1,140 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-white text-black">
+      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]"></div>
+
+      <div className="flex-col items-center justify-center mt-8 lg:grid-cols-2">
+        <div>
+          <h1 className="mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-3xl">
+            Hi!
+          </h1>
+          <h1 className="mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-3xl">
+            My name is Dylan Sy.{" "}
+          </h1>
+          <h1 className="mt-5 text-1xl font-extrabold leading-[1.15] text-black sm:text-1xl">
+            I make cool stuff. This includes both technical and nontechnical
+            projects.
+          </h1>
+        </div>
+
+        <div className="mb-32 lg:mb-0 w-full lg:text-left">
+          {" "}
           <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="https://github.com/orgs/Dynamo-Dark-Aid/repositories"
+            className="group rounded-lg border border-transparent px-5 py-4 transition-colors "
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
+            <h2 className={`mb-3 text-2xl font-semibold`}>Go Vibe </h2>
+            <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+              Go Vibe is an adventurous app that presents five thrilling
+              attractions with a single tap, offering users unforgettable
+              experiences and opportunities to explore their current location.
+            </p>
           </a>
+        </div>
+
+        <div className="mt-8">
+          <h2 className={`mb-2 text-2xl font-semibold`}>About Me</h2>
+          <blockquote className="twitter-tweet">
+            <p lang="en" dir="ltr">
+              Hi everyone!
+              <br />
+              <br />
+              I'm Dylan Sy and I'm 24 years old.
+              <br />
+              <br />
+              I've changed my career paths 4x.
+              <br />
+              <br />
+              Haven't made anything yet. Currently doing well because of a
+              friend of mine who introduced me to crypto. Been "trading" since
+              2017.
+              <br />
+              <br />
+              I'm interested in making cool stuff. Feel free to reach out…{" "}
+              <a href="https://t.co/28CSZfkaYV">pic.twitter.com/28CSZfkaYV</a>
+            </p>
+            &mdash; Dylan Sy (@mythicaldylan){" "}
+            <a href="https://twitter.com/mythicaldylan/status/1677022718200360960?ref_src=twsrc%5Etfw">
+              July 6, 2023
+            </a>
+          </blockquote>
+        </div>
+
+        <div className="mt-8">
+          <h2 className={`mb-2 text-2xl font-semibold`}>Bootcamp Journey </h2>
+          <blockquote className="twitter-tweet">
+            <p lang="en" dir="ltr">
+              Hi everyone!
+              <br />
+              <br />
+              My name is Dylan Sy, and I just finished{" "}
+              <a href="https://twitter.com/fullstack?ref_src=twsrc%5Etfw">
+                @Fullstack
+              </a>{" "}
+              Academy's software engineering bootcamp.
+              <br />
+              <br />
+              I've made it a point to tweet about it.
+              <br />
+              <br />
+              Every single day.
+              <br />
+              <br />
+              Share with friends and family looking to make that leap.
+              <br />
+              <br />
+              Enjoy!
+              <a href="https://twitter.com/hashtag/tech?src=hash&amp;ref_src=twsrc%5Etfw">
+                #tech
+              </a>{" "}
+              <a href="https://twitter.com/hashtag/coding?src=hash&amp;ref_src=twsrc%5Etfw">
+                #coding
+              </a>{" "}
+              <a href="https://t.co/eeXB11dTFs">https://t.co/eeXB11dTFs</a>
+            </p>
+            &mdash; Dylan Sy (@mythicaldylan){" "}
+            <a href="https://twitter.com/mythicaldylan/status/1682498728576286720?ref_src=twsrc%5Etfw">
+              July 21, 2023
+            </a>
+          </blockquote>
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charSet="utf-8"
+          ></script>
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
+      <div className="mt-8">
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
+          href="https://github.com/sydylan"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
+          GitHub
         </a>
-
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/dylan-sy/"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
+          LinkedIn
         </a>
-
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
+          href="https://twitter.com/mythicaldylan"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
+          Twitter
         </a>
       </div>
     </main>
-  )
+  );
 }
