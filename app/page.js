@@ -13,6 +13,9 @@ export default function Home() {
           <h1 className="mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-3xl">
             My name is Dylan Sy.{" "}
           </h1>
+          <h1 className="mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-3xl">
+            I'm a software engineer 🧑‍💻.{" "}
+          </h1>
           <h1 className="mt-5 text-1xl font-extrabold leading-[1.15] text-black sm:text-1xl">
             I make cool stuff. This includes both technical and nontechnical
             projects.
