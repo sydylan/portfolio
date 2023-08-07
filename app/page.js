@@ -1,10 +1,6 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-white text-black">
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]"></div>
-
+    <main className="flex min-h-screen flex-col items-center pb-8 bg-white text-black">
       <div className="flex-col items-center justify-center mt-8 lg:grid-cols-2">
         <div>
           <h1 className="mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-3xl">
@@ -16,22 +12,38 @@ export default function Home() {
           <h1 className="mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-3xl">
             I'm a software engineer 🧑‍💻.{" "}
           </h1>
-          <h1 className="mt-5 text-1xl font-extrabold leading-[1.15] text-black sm:text-1xl">
-            I make cool stuff. This includes both technical and nontechnical
-            projects.
+          <h1 className="mt-5 mb-10 text-1xl font-extrabold leading-[1.15] text-black sm:text-1xl">
+            I make cool stuff.
           </h1>
         </div>
 
-        <div className="mb-2 lg:mb-0 w-full lg:text-left">
-          {" "}
+        <div className="mt-8 grid lg:mb-0 w-full lg:text-left">
+          <h2 className={`mb-2 text-2xl font-bold`}>Currently working on:</h2>
+
           <a
-            href="https://github.com/orgs/Dynamo-Dark-Aid/repositories"
-            className="group rounded-lg border border-transparent px-5 py-4 transition-colors "
+            href="https://buildspace.so/"
+            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={`mb-3 text-2xl font-semibold`}>Go Vibe </h2>
-            <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            <h2 className={`mb-2 text-2xl font-semibold`}>buildspace: s4</h2>
+            <p className={`m-0 max-w-[55ch] text-sm opacity-50`}>
+              buildspace is a school to work on your own ideas. aug 5, 2023
+            </p>
+          </a>
+        </div>
+
+        <div className="mt-8 grid lg:mb-0 w-full lg:text-left">
+          <h2 className={`mb-2 text-2xl font-bold`}>Projects</h2>
+
+          <a
+            href="https://github.com/orgs/Dynamo-Dark-Aid/repositories"
+            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={`mb-2 text-2xl font-semibold`}>Go Vibe </h2>
+            <p className={`m-0 max-w-[55ch] text-sm opacity-50`}>
               Go Vibe is an adventurous app that presents five thrilling
               attractions with a single tap, offering users unforgettable
               experiences and opportunities to explore their current location.
@@ -41,6 +53,7 @@ export default function Home() {
 
         <div className="mt-8">
           <h2 className={`mb-2 text-2xl font-semibold`}>About Me</h2>
+
           <blockquote className="twitter-tweet">
             <p lang="en" dir="ltr">
               Hi everyone!
