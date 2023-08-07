@@ -47,6 +47,7 @@ export default function Home() {
               Go Vibe is an adventurous app that presents five thrilling
               attractions with a single tap, offering users unforgettable
               experiences and opportunities to explore their current location.
+              july 21, 2023
             </p>
           </a>
         </div>
