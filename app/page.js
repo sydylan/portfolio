@@ -10,15 +10,17 @@ export default function Home() {
             My name is Dylan Sy.{" "}
           </h1>
           <h1 className="mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-3xl">
-            I'm a software engineer 🧑‍💻.{" "}
+            I'm a software engineer 🧑‍💻{" "}
           </h1>
           <h1 className="mt-5 mb-10 text-1xl font-extrabold leading-[1.15] text-black sm:text-1xl">
             I make cool stuff.
           </h1>
         </div>
 
-        <div className="mt-8 grid lg:mb-0 w-full lg:text-left">
-          <h2 className={`mb-2 text-2xl font-bold`}>Currently working on:</h2>
+        <div className="mt-8 grid lg:mb-0 w-full lg:text-left max-w-[55ch]">
+          <h2 className={`mb-2 text-2xl font-bold underline`}>
+            Currently working on:
+          </h2>
 
           <a
             href="https://buildspace.so/"
@@ -34,21 +36,53 @@ export default function Home() {
         </div>
 
         <div className="mt-8 grid lg:mb-0 w-full lg:text-left">
-          <h2 className={`mb-2 text-2xl font-bold`}>Projects</h2>
+          <h2 className={`mb-2 text-2xl font-bold underline`}>Projects</h2>
 
           <a
-            href="https://github.com/orgs/Dynamo-Dark-Aid/repositories"
+            href="https://github.com/sydylan/sigmatime"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={`mb-2 text-2xl font-semibold`}>Go Vibe </h2>
-            <p className={`m-0 max-w-[55ch] text-sm opacity-50`}>
-              Go Vibe is an adventurous app that presents five thrilling
-              attractions with a single tap, offering users unforgettable
-              experiences and opportunities to explore their current location.
-              july 21, 2023
-            </p>
+            <div className="flex">
+              <div>
+                <h2 className={`mb-2 text-2xl font-semibold`}>SigmaTime </h2>
+                <p className={`m-0 max-w-[30ch] text-sm opacity-50 mr-10`}>
+                  SigmaTime is a productivity tool that offers a customizable
+                  Pomodoro timer, complete with inspirational quotes and
+                  soothing sounds, helping you stay focused and productive
+                  during work and study sessions. august 8, 2023
+                </p>
+              </div>
+              <img
+                src="/SigmaTime.jpg"
+                alt="SigmaTime Project"
+                className="max-w-full h-auto w-32 sm:w-48"
+              />
+            </div>
+          </a>
+          <a
+            href="https://github.com/Dynamo-Dark-Aid/GoVibeFE"
+            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="flex">
+              <div>
+                <h2 className={`mb-2 text-2xl font-semibold`}>Go Vibe </h2>
+                <p className={`m-0 max-w-[30ch] text-sm opacity-50 mr-10`}>
+                  Go Vibe is an adventurous app that presents five thrilling
+                  attractions with a single tap, offering users unforgettable
+                  experiences and opportunities to explore their current
+                  location. july 21, 2023
+                </p>
+              </div>
+              <img
+                src="/goVibe.jpg"
+                alt="Go Vibe Project"
+                className="max-w-full h-auto w-32 sm:w-48 pr-20"
+              />
+            </div>
           </a>
         </div>
 
