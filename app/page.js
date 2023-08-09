@@ -1,6 +1,13 @@
+import Head from "next/head";
+import "../public/style.css"; // Import your CSS file
+import React from "react"; // Make sure to import React
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center pb-8 bg-white text-black">
+      <Head>
+        <link rel="stylesheet" href="/style.css" />
+      </Head>
       <div className="flex-col items-center justify-center mt-8 lg:grid-cols-2">
         <div>
           <h1 className="mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-3xl">
@@ -19,7 +26,7 @@ export default function Home() {
 
         <div className="mt-8 grid lg:mb-0 w-full lg:text-left max-w-[55ch]">
           <h2 className={`mb-2 text-2xl font-bold underline`}>
-            Currently working on:
+            Currently working on
           </h2>
 
           <a
@@ -35,7 +42,7 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="mt-8 grid lg:mb-0 w-full lg:text-left">
+        <div className="mt-8 grid lg:mb-0 w-full lg:text-left max-w-[55ch]">
           <h2 className={`mb-2 text-2xl font-bold underline`}>Projects</h2>
 
           <a
@@ -87,7 +94,7 @@ export default function Home() {
         </div>
 
         <div className="mt-8">
-          <h2 className={`mb-2 text-2xl font-semibold`}>About Me</h2>
+          <h2 className={`mb-2 text-2xl font-semibold underline`}>About Me</h2>
 
           <blockquote className="twitter-tweet">
             <p lang="en" dir="ltr">
@@ -116,7 +123,9 @@ export default function Home() {
         </div>
 
         <div className="mt-8">
-          <h2 className={`mb-2 text-2xl font-semibold`}>Bootcamp Journey </h2>
+          <h2 className={`mb-2 text-2xl font-semibold underline`}>
+            Bootcamp Journey{" "}
+          </h2>
           <blockquote className="twitter-tweet">
             <p lang="en" dir="ltr">
               Hi everyone!
@@ -157,6 +166,55 @@ export default function Home() {
             src="https://platform.twitter.com/widgets.js"
             charSet="utf-8"
           ></script>
+        </div>
+      </div>
+
+      <div className="mt-8 grid lg:mb-0 w-full lg:text-left max-w-[55ch]">
+        <h2 className={`mb-10 text-2xl font-bold underline`}>Favorite Reads</h2>
+        <div className="slider ml-20">
+          <span style={{ "--i": 1 }}>
+            <a href="https://www.amazon.com/gp/product/0735211299/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">
+              <img src="/book1.jpg" alt="" />
+            </a>
+          </span>
+          <span style={{ "--i": 2 }}>
+            <a href="https://www.amazon.com/gp/product/0062273205/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">
+              <img src="/book2.jpg" alt="" />
+            </a>
+          </span>
+          <span style={{ "--i": 3 }}>
+            <a href="https://www.amazon.com/gp/product/0804139296/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">
+              <img src="/book3.jpg" alt="" />
+            </a>
+          </span>
+
+          <span style={{ "--i": 4 }}>
+            <a href="https://www.amazon.com/gp/product/0671027034/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">
+              <img src="/book4.jpg" alt="" />
+            </a>
+          </span>
+          <span style={{ "--i": 5 }}>
+            <a href="https://www.amazon.com/gp/product/0060505915/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">
+              <img src="/book5.jpg" alt="" />
+            </a>
+          </span>
+
+          <span style={{ "--i": 6 }}>
+            <a href="https://www.amazon.com/gp/product/1538754231/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1">
+              <img src="/book6.jpg" alt="" />
+            </a>
+          </span>
+
+          <span style={{ "--i": 7 }}>
+            <a href="https://www.amazon.com/gp/product/0060898771/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1">
+              <img src="/book7.jpg" alt="" />
+            </a>
+          </span>
+          <span style={{ "--i": 8 }}>
+            <a href="https://www.amazon.com/Art-War-Sun-Tzu/dp/1599869772/ref=sr_1_1?crid=Y3PIUMEWRFJB&keywords=the+art+of+war&qid=1691618226&s=books&sprefix=the+art+of+war%2Cstripbooks%2C111&sr=1-1">
+              <img src="/book8.jpg" alt="" />
+            </a>
+          </span>
         </div>
       </div>
 
