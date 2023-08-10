@@ -40,6 +40,19 @@ export default function Home() {
               buildspace is a school to work on your own ideas. aug 5, 2023
             </p>
           </a>
+
+          <a
+            href="https://twitter.com/cohort2303"
+            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={`mb-2 text-2xl font-semibold`}>Cohort 2303</h2>
+            <p className={`m-0 max-w-[55ch] text-sm opacity-50`}>
+              Community of fullstack developers, graduates of Fullstack Academy,
+              Cohort 2303. march 1, 2023
+            </p>
+          </a>
         </div>
 
         <div className="mt-8 grid lg:mb-0 w-full lg:text-left max-w-[55ch]">
@@ -64,7 +77,7 @@ export default function Home() {
               <img
                 src="/SigmaTime.jpg"
                 alt="SigmaTime Project"
-                className="max-w-full h-auto w-32 sm:w-48"
+                className="max-w-full h-auto w-32 sm:w-48 object-cover"
               />
             </div>
           </a>
@@ -87,7 +100,7 @@ export default function Home() {
               <img
                 src="/goVibe.jpg"
                 alt="Go Vibe Project"
-                className="max-w-full h-auto w-32 sm:w-48 pr-20"
+                className="max-w-full h-auto w-32 sm:w-48 pr-20 object-cover"
               />
             </div>
           </a>
@@ -166,55 +179,6 @@ export default function Home() {
             src="https://platform.twitter.com/widgets.js"
             charSet="utf-8"
           ></script>
-        </div>
-      </div>
-
-      <div className="mt-8 grid lg:mb-0 w-full lg:text-left max-w-[55ch]">
-        <h2 className={`mb-10 text-2xl font-bold underline`}>Favorite Reads</h2>
-        <div className="slider ml-20">
-          <span style={{ "--i": 1 }}>
-            <a href="https://www.amazon.com/gp/product/0735211299/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">
-              <img src="/book1.jpg" alt="" />
-            </a>
-          </span>
-          <span style={{ "--i": 2 }}>
-            <a href="https://www.amazon.com/gp/product/0062273205/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">
-              <img src="/book2.jpg" alt="" />
-            </a>
-          </span>
-          <span style={{ "--i": 3 }}>
-            <a href="https://www.amazon.com/gp/product/0804139296/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">
-              <img src="/book3.jpg" alt="" />
-            </a>
-          </span>
-
-          <span style={{ "--i": 4 }}>
-            <a href="https://www.amazon.com/gp/product/0671027034/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">
-              <img src="/book4.jpg" alt="" />
-            </a>
-          </span>
-          <span style={{ "--i": 5 }}>
-            <a href="https://www.amazon.com/gp/product/0060505915/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">
-              <img src="/book5.jpg" alt="" />
-            </a>
-          </span>
-
-          <span style={{ "--i": 6 }}>
-            <a href="https://www.amazon.com/gp/product/1538754231/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1">
-              <img src="/book6.jpg" alt="" />
-            </a>
-          </span>
-
-          <span style={{ "--i": 7 }}>
-            <a href="https://www.amazon.com/gp/product/0060898771/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1">
-              <img src="/book7.jpg" alt="" />
-            </a>
-          </span>
-          <span style={{ "--i": 8 }}>
-            <a href="https://www.amazon.com/Art-War-Sun-Tzu/dp/1599869772/ref=sr_1_1?crid=Y3PIUMEWRFJB&keywords=the+art+of+war&qid=1691618226&s=books&sprefix=the+art+of+war%2Cstripbooks%2C111&sr=1-1">
-              <img src="/book8.jpg" alt="" />
-            </a>
-          </span>
         </div>
       </div>
 
