@@ -104,6 +104,23 @@ export default function Home() {
               />
             </div>
           </a>
+          <a
+            href="https://twitter.com/boosted_odds"
+            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="flex">
+              <div>
+                <h2 className={`mb-2 text-2xl font-semibold`}>Boosted Odds </h2>
+                <p className={`m-0 max-w-[30ch] text-sm opacity-50 mr-10`}>
+                  Finding +EV and Arbitrage Bets so you don't have to. I worked
+                  at Boosted Odds as a Social Media Manager and took this from
+                  Zero to One. july 21, 2023
+                </p>
+              </div>
+            </div>
+          </a>
         </div>
 
         <div className="mt-8">
