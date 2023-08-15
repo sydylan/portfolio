@@ -5,9 +5,6 @@ import React from "react"; // Make sure to import React
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center pb-8 bg-white text-black">
-      <Head>
-        <link rel="stylesheet" href="/style.css" />
-      </Head>
       <div className="flex-col items-center justify-center mt-8 lg:grid-cols-2">
         <div>
           <h1 className="mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-3xl">
@@ -67,7 +64,7 @@ export default function Home() {
               <div>
                 <h2 className={`mb-2 text-2xl font-semibold`}>SigmaNow. </h2>
                 <p className={`m-0 max-w-[30ch] text-sm opacity-50 mr-10`}>
-                  Look at stoic quote and vibe. august 15, 2023
+                  Look at stoic quotes and vibe. august 15, 2023
                 </p>
               </div>
               <img
