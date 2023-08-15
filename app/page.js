@@ -57,6 +57,26 @@ export default function Home() {
 
         <div className="mt-8 grid lg:mb-0 w-full lg:text-left max-w-[55ch]">
           <h2 className={`mb-2 text-2xl font-bold underline`}>Projects</h2>
+          <a
+            href="https://github.com/sydylan/sigmanow"
+            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="flex">
+              <div>
+                <h2 className={`mb-2 text-2xl font-semibold`}>SigmaNow. </h2>
+                <p className={`m-0 max-w-[30ch] text-sm opacity-50 mr-10`}>
+                  Look at stoic quote and vibe. august 15, 2023
+                </p>
+              </div>
+              <img
+                src="/SigmaNow.jpg"
+                alt="SigmaNow Project"
+                className="max-w-full h-auto w-32 sm:w-48 object-cover"
+              />
+            </div>
+          </a>
 
           <a
             href="https://github.com/sydylan/sigmatime"
