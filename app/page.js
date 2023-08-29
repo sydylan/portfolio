@@ -34,8 +34,8 @@ export default function Home() {
           >
             <h2 className={`mb-2 text-2xl font-semibold`}>buildspace: s4</h2>
             <p className={`m-0 max-w-[55ch] text-sm opacity-50`}>
-              buildspace is a school to work on your own ideas - backed by yc
-              and a16z. aug 5, 2023
+              A school for people to work on ideas they're passionate about.
+              Backed by a16z + YC. aug 5, 2023
             </p>
           </a>
 
