@@ -22,23 +22,7 @@ export default function Home() {
         </div>
 
         <div className="mt-8 grid lg:mb-0 w-full lg:text-left max-w-[55ch]">
-          <h2 className={`mb-2 text-2xl font-bold underline`}>
-            Currently working on
-          </h2>
-
-          <a
-            href="https://buildspace.so/"
-            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={`mb-2 text-2xl font-semibold`}>buildspace: s4</h2>
-            <p className={`m-0 max-w-[55ch] text-sm opacity-50`}>
-              A school for people to work on ideas they're passionate about in 6
-              weeks. Backed by a16z + YC. aug 5, 2023
-            </p>
-          </a>
-
+          <h2 className={`mb-2 text-2xl font-bold underline`}>Building</h2>
           <a
             href="https://twitter.com/cohort2303"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -65,32 +49,15 @@ export default function Home() {
               <div>
                 <h2 className={`mb-2 text-2xl font-semibold`}>genphrase.com</h2>
                 <p className={`m-0 max-w-[30ch] text-sm opacity-50 mr-10`}>
-                  Generate powerful random passphrases. august 23, 2023
+                  Generate powerful random passphrases. Built in nights &
+                  weekends by buildspace. A school for people to work on ideas
+                  they're passionate about in 6 weeks. Backed by a16z + YC.
+                  august 23, 2023
                 </p>
               </div>
               <img
                 src="/genphrase.jpg"
                 alt="Genphrase"
-                className="max-w-full h-auto w-32 sm:w-48 object-cover"
-              />
-            </div>
-          </a>
-          <a
-            href="https://github.com/sydylan/sigmanow"
-            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="flex">
-              <div>
-                <h2 className={`mb-2 text-2xl font-semibold`}>SigmaNow. </h2>
-                <p className={`m-0 max-w-[30ch] text-sm opacity-50 mr-10`}>
-                  Look at stoic quotes and vibe. august 15, 2023
-                </p>
-              </div>
-              <img
-                src="/SigmaNow.jpg"
-                alt="SigmaNow Project"
                 className="max-w-full h-auto w-32 sm:w-48 object-cover"
               />
             </div>
@@ -157,6 +124,11 @@ export default function Home() {
                   Zero to One. july 21, 2023
                 </p>
               </div>
+              <img
+                src="/boostedodds.jpg"
+                alt="Genphrase"
+                className="max-w-full h-auto w-32 sm:w-48 object-cover"
+              />
             </div>
           </a>
         </div>
@@ -188,6 +160,43 @@ export default function Home() {
               July 6, 2023
             </a>
           </blockquote>
+        </div>
+
+        <div className="mt-8">
+          <h2 className={`mb-2 text-2xl font-semibold underline`}>
+            buildspace Journey{" "}
+          </h2>
+          <blockquote className="twitter-tweet">
+            <p lang="en" dir="ltr">
+              Last weekend at s4 irl
+              <a href="https://twitter.com/_buildspace?ref_src=twsrc%5Etfw">
+                @_buildspace
+              </a>
+              <br />
+              <br />
+              What an amazing weekend, and I'm so glad to have met you all.
+              <br />
+              <br />
+              If you see yourself, say hi below!
+              <br />
+              <br />
+              Shout out
+              <a href="https://twitter.com/mayv_music?ref_src=twsrc%5Etfw">
+                @mayv_music
+              </a>
+              for 'lay it down'. It's 🔥
+              <a href="https://t.co/wIr1ukIJKe">pic.twitter.com/wIr1ukIJKe</a>
+            </p>
+            &mdash; Dylan Sy 💎 (@mythicaldylan)
+            <a href="https://twitter.com/mythicaldylan/status/1707261167993782529?ref_src=twsrc%5Etfw">
+              September 28, 2023
+            </a>
+          </blockquote>
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
         </div>
 
         <div className="mt-8">
