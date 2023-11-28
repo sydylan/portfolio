@@ -1,3 +1,10 @@
+body, html {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+  background-color: white
+}
+
 .slider {
     position:static;
     margin-left: 33.3%;
