@@ -148,8 +148,8 @@ export default function Home() {
           </a>
         </div>
 
-        <h2 className={`mb-2 text-2xl font-semibold underline`}>About Me</h2>
-        <div className="ml-10">
+        <div>
+          <h2 className={`text-2xl font-semibold underline`}>About Me</h2>
           <blockquote className="twitter-tweet">
             <p lang="en" dir="ltr">
               Hi everyone!
@@ -176,10 +176,10 @@ export default function Home() {
           </blockquote>
         </div>
 
-        <h2 className={`mt-8 mb-2 text-2xl font-semibold underline`}>
-          buildspace Journey{" "}
-        </h2>
-        <div className="ml-10">
+        <div>
+          <h2 className={`mt-8 text-2xl font-semibold underline`}>
+            buildspace Journey{" "}
+          </h2>
           <blockquote className="twitter-tweet">
             <p lang="en" dir="ltr">
               Last weekend at s4 irl
@@ -213,10 +213,10 @@ export default function Home() {
           ></script>
         </div>
 
-        <h2 className={`mt-8 mb-2 text-2xl font-semibold underline`}>
+        <h2 className={`mt-8 text-2xl font-semibold underline`}>
           Bootcamp Journey
         </h2>
-        <div className="ml-10">
+        <div>
           <blockquote className="twitter-tweet">
             <p lang="en" dir="ltr">
               Hi everyone!
@@ -285,14 +285,7 @@ export default function Home() {
         >
           Twitter
         </a>
-        <a
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.youtube.com/@dylansy"
-        >
-          YouTube
-        </a>
+
         <a
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
