@@ -22,7 +22,22 @@ export default function Home() {
         </div>
 
         <div className="mt-8 grid lg:mb-0 w-full lg:text-left max-w-[55ch]">
-          <h2 className={`mb-2 text-2xl font-bold underline`}>Building</h2>
+          <h2 className={`mb-2 text-2xl font-bold underline`}>
+            Currently working on 🧱
+          </h2>
+          <a
+            href="https://www.youtube.com/@dylansy"
+            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={`mb-2 text-2xl font-semibold`}>
+              My YouTube Channel
+            </h2>
+            <p className={`m-0 max-w-[55ch] text-sm opacity-50`}>
+              Modern-day explorer of life. september 11, 2023 - current
+            </p>
+          </a>
           <a
             href="https://twitter.com/cohort2303"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -32,7 +47,7 @@ export default function Home() {
             <h2 className={`mb-2 text-2xl font-semibold`}>Cohort 2303</h2>
             <p className={`m-0 max-w-[55ch] text-sm opacity-50`}>
               Community of fullstack developers, graduates of Fullstack Academy,
-              Cohort 2303. march 1, 2023
+              Cohort 2303. march 1, 2023 - current
             </p>
           </a>
         </div>
@@ -133,9 +148,8 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="mt-8">
-          <h2 className={`mb-2 text-2xl font-semibold underline`}>About Me</h2>
-
+        <h2 className={`mb-2 text-2xl font-semibold underline`}>About Me</h2>
+        <div className="ml-10">
           <blockquote className="twitter-tweet">
             <p lang="en" dir="ltr">
               Hi everyone!
@@ -162,10 +176,10 @@ export default function Home() {
           </blockquote>
         </div>
 
-        <div className="mt-8">
-          <h2 className={`mb-2 text-2xl font-semibold underline`}>
-            buildspace Journey{" "}
-          </h2>
+        <h2 className={`mt-8 mb-2 text-2xl font-semibold underline`}>
+          buildspace Journey{" "}
+        </h2>
+        <div className="ml-10">
           <blockquote className="twitter-tweet">
             <p lang="en" dir="ltr">
               Last weekend at s4 irl
@@ -199,10 +213,10 @@ export default function Home() {
           ></script>
         </div>
 
-        <div className="mt-8">
-          <h2 className={`mb-2 text-2xl font-semibold underline`}>
-            Bootcamp Journey{" "}
-          </h2>
+        <h2 className={`mt-8 mb-2 text-2xl font-semibold underline`}>
+          Bootcamp Journey
+        </h2>
+        <div className="ml-10">
           <blockquote className="twitter-tweet">
             <p lang="en" dir="ltr">
               Hi everyone!
@@ -270,6 +284,14 @@ export default function Home() {
           href="https://twitter.com/mythicaldylan"
         >
           Twitter
+        </a>
+        <a
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.youtube.com/@dylansy"
+        >
+          YouTube
         </a>
         <a
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
