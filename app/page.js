@@ -8,16 +8,10 @@ export default function Home() {
       <div className="flex-col items-center justify-center mt-8 lg:grid-cols-2">
         <div>
           <h1 className="mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-3xl">
-            Hi!
+            Nice to meet you! I'm Dylan.{" "}
           </h1>
           <h1 className="mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-3xl">
-            My name is Dylan Sy.{" "}
-          </h1>
-          <h1 className="mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-3xl">
-            I'm a software engineer 🧑‍💻{" "}
-          </h1>
-          <h1 className="mt-5 mb-10 text-1xl font-extrabold leading-[1.15] text-black sm:text-1xl">
-            I make cool stuff.
+            I'm a software engineer. 🧑‍💻{" "}
           </h1>
         </div>
 
@@ -281,7 +275,7 @@ export default function Home() {
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://twitter.com/mythicaldylan"
+          href="https://twitter.com/dylansyyyy"
         >
           Twitter
         </a>
