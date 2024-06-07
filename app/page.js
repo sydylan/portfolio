@@ -8,16 +8,16 @@ export default function Home() {
       <div className="flex-col items-center justify-center mt-8 lg:grid-cols-2">
         <div>
           <h1 className="mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-3xl">
-            Nice to meet you! I'm Dylan.{" "}
+            Hi. I'm Dylan Sy,{" "}
           </h1>
           <h1 className="mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-3xl">
-            I'm a software engineer. 🧑‍💻{" "}
+            I'm a software engineer.{" "}
           </h1>
         </div>
 
         <div className="mt-8 grid lg:mb-0 w-full lg:text-left max-w-[55ch]">
           <h2 className={`mb-2 text-2xl font-bold underline`}>
-            Currently working on 🧱
+            What I'm Currently Working On
           </h2>
           <a
             href="https://www.youtube.com/@dylansy"
@@ -46,7 +46,7 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="mt-8 grid lg:mb-0 w-full lg:text-left max-w-[55ch]">
+        {/* <div className="mt-8 grid lg:mb-0 w-full lg:text-left max-w-[55ch]">
           <h2 className={`mb-2 text-2xl font-bold underline`}>Projects</h2>
           <a
             href="https://genphrase.com"
@@ -140,10 +140,10 @@ export default function Home() {
               />
             </div>
           </a>
-        </div>
+        </div> */}
 
         <div>
-          <h2 className={`text-2xl font-semibold underline`}>About Me</h2>
+          <h2 className={`mt-8 text-2xl font-semibold underline`}>About Me</h2>
           <blockquote className="twitter-tweet">
             <p lang="en" dir="ltr">
               Hi everyone!
@@ -172,7 +172,7 @@ export default function Home() {
 
         <div>
           <h2 className={`mt-8 text-2xl font-semibold underline`}>
-            buildspace Journey{" "}
+            My time at buildspace s4{" "}
           </h2>
           <blockquote className="twitter-tweet">
             <p lang="en" dir="ltr">
@@ -208,7 +208,7 @@ export default function Home() {
         </div>
 
         <h2 className={`mt-8 text-2xl font-semibold underline`}>
-          Bootcamp Journey
+          I Tweeted Everyday During My Bootcamp
         </h2>
         <div>
           <blockquote className="twitter-tweet">
