@@ -29,7 +29,7 @@ export default function Home() {
               My YouTube Channel
             </h2>
             <p className={`m-0 max-w-[55ch] text-sm opacity-50`}>
-              Modern-day explorer of life. september 11, 2023 - current
+              I post stuff on the internet. september 11, 2023 - current
             </p>
           </a>
           <a
@@ -40,8 +40,8 @@ export default function Home() {
           >
             <h2 className={`mb-2 text-2xl font-semibold`}>Cohort 2303</h2>
             <p className={`m-0 max-w-[55ch] text-sm opacity-50`}>
-              Community of fullstack developers, graduates of Fullstack Academy,
-              Cohort 2303. march 1, 2023 - current
+              I built and run a community of builders, and graduates of
+              Fullstack Academy, Cohort 2303. march 1, 2023 - current
             </p>
           </a>
         </div>
